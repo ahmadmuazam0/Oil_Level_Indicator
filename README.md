@@ -1,8 +1,9 @@
 - 👋 Hi, I’m @ahmadmuazam0
 Introduction:
-  This programe is for Oil Level sensor used in Injection molding machines to determine the fluid level inside the tank. It shows the th eOUTPUT in form of %
- on the 16x2 LCD. You can change it to whatever display you want.
- 
+  This programe is for Oil Level sensor used in Injection molding machines to determine the fluid level inside the tank. It shows the th eOUTPUT in form of % on the 16x2 LCD. You can change it to whatever display you want.
+
+Install the "LiquidCrystal_I2C" library from library manager
+
 Pin Configuration:
  1- Make sure that LCD has I2C module connected
     1- SCL --> A5
