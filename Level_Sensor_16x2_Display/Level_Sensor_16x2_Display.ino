@@ -46,9 +46,9 @@ void loop()
   sensor_value=sensor_value*4.8;         // Displaying the %ge of fluid inside
   
   lcd.setCursor(6,1);
-  
-  lcd.print(sensor_value);                    // Print the value on LCD Display
+  lcd.print("   ");
   lcd.setCursor(6,1);
+  lcd.print(sensor_value);                    // Print the value on LCD Display
   sensor_value=0;                             // Reset the Sensor Value variable
   mean=0;                                     // Reset the mean variable
   
